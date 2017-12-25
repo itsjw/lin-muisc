@@ -1,0 +1,43 @@
+[
+    {
+        "name":"稳稳的幸福",
+        "audio":"assets/mp3/陈奕迅 - 稳稳的幸福.mp3",
+        "id":"0"
+    },
+    {
+        "name":"爱情转移",
+        "audio":"assets/mp3/爱情转移.mp3",
+        "id":"1"
+    },
+    {
+        "name":"追光者",
+        "audio":"assets/mp3/岑宁儿-追光者.mp3",
+        "id":"2"
+    },
+    {
+        "name":"告白气球",
+        "audio":"assets/mp3/周杰伦 - 告白气球.mp3",
+        "id":"3"
+    },
+    {
+        "name":"成都",
+        "audio":"assets/mp3/赵雷 - 成都.mp3",
+        "id":"4"
+    },
+    {
+        "name":"秋殇别恋",
+        "audio":"assets/mp3/格子兮、牙牙乐 - 秋殇别恋.mp3",
+        "id":"5"
+    },
+    {
+        "name":"广东雨神-广东爱情故事",
+        "audio":"assets/mp3/广东雨神 - 广东爱情故事.mp3",
+        "id":"6"
+    },
+    {
+        "name":"张北北-拥抱你离去",
+        "audio":"assets/mp3/张北北 - 拥抱你离去 (DJ酷B版).mp3",
+        "id":"7"
+    }
+   
+]

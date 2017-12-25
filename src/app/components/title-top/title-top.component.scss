@@ -1,0 +1,57 @@
+.title{
+    height: 2.5rem;
+    width: 100%;
+    background: #242424;
+    -webkit-app-region: drag;
+    position: fixed;
+    top: 0;
+}
+button{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    outline: none;
+    border: none;
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    
+}
+.min{
+    background: url('../../../assets/images/min.png') no-repeat 100%;
+    background-size: 100% 100%;
+    
+    right: 60px;
+}
+.max{
+    background: url('../../../assets/images/max.png') no-repeat 100%;
+    background-size: 100% 100%;
+    
+    right: 60px;
+}
+.close{
+    background: url('../../../assets/images/colse.png') no-repeat 100%;
+    background-size: 100% 100%;
+    
+    right: 20px;
+}
+.logo{
+    margin-left:20px;
+    width: 180px;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // background: url('../../../assets/images/angularjs.png') no-repeat;
+    &>img{
+        width:1.2rem;
+        height: 1.2rem
+
+    }
+    &>span{
+        margin-right:2rem;
+    }
+}

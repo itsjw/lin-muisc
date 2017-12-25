@@ -1,0 +1,13 @@
+<div class="sidbar">
+
+  <div class="sidbar-main">
+      <ul>
+        <li *ngFor="let v of list;" (dblclick)="handelclick(v.id)">
+          <img src="../../../assets/images/jiez.png" alt="" style='margin-right:.3rem;'>
+          {{v.name}}
+        </li>
+       
+      </ul>
+  </div>
+
+</div>

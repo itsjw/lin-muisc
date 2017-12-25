@@ -1,0 +1,32 @@
+<div class="bottom-title">
+
+    <div class="controller">
+        <img src="../../../assets/images/bugo.png" alt="">
+        <img class="controller-play" src="../../../assets/images/rungo.png" alt="" (click)='playPause()'>
+        <img src="../../../assets/images/go.png" alt="" (click)='next()'>
+    </div>
+
+    <div class="Progress-bar">
+        <span>{{currentTime}}</span>
+
+        <div>
+                <div class="progress">
+
+                </div>
+        </div>
+
+        <span>{{endtime}}</span>
+    </div>
+
+    <div class="voice">
+        <img src="../../../assets/images/volume.png" alt="" (click)='voice()'>
+        <div (click)='volumeLength($event)' >
+                <div class="vol"></div>
+        </div>
+    </div>
+
+    <div class="order">
+        <img src="../../../assets/images/random.png" alt="">
+    </div>
+
+</div>
